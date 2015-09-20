@@ -3,6 +3,7 @@ package com.dxtek.bean;
 public class User {
 	private int id ;
 	private String name ;
+	private String address ;
 	public int getId() {
 		return id;
 	}
