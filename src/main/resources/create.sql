@@ -1,0 +1,1 @@
+create table user(id int,varcahr(50) name);
