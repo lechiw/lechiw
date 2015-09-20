@@ -3,7 +3,7 @@ package com.dxtek.bean;
 public class User {
 	private int id ;
 	private String name ;
-	private String address ;
+	private String email ;
 	public int getId() {
 		return id;
 	}
@@ -16,12 +16,11 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAddress() {
-		return address;
+	public String getEmail() {
+		return email;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-	
 	
 }
